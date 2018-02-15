@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Faktura</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+</head>
+<body onload="time (), time3();">
+   <main>
+       <div class="top">
+           <div class="top-left">
+<h1>Mio AB</h1>
+<p>Ekslingan 7<br>25467 Helsingborg</p>
+           </div>
+           <div class="top-right">
+<h1>Faktura</h1>
+<table class="faktura">
+    <tr><th>Faktura datum: </th><td><p id="demo"></p></td></tr>
+    <tr><th>OCR/Faktura nummer: </th><td>98562</td></tr>
+    <tr><th>Betalning villkor: </th><td>30 dagar</td></tr>
+    <tr><th>Förfalladatum: </th><td><p id="demo3"></p></td></tr>
+</table>
+           </div>
+       </div>
+       <div class="info">
+           <div class="info-left">
+<b style="color: #00b894; font-family: 'Berkshire Swash', cursive;">Vi finns här för dig:</b><br><br>
+<b>Logga in på vår sida: </b><span>www.mio.se</span><br><b>Mejla oss: </b><span>kundservice@mio.se</span><br><b>Ring oss: </b><span>046-2743340</span><br>mån-tors: 8-20, fre: 9-16.30<br><b>Facebook: </b><span>facebook.com/mio</span>
+           </div>
+           <div class="info-right">
+                <h1>Wellbefy AB</h1>
+                <p>Bredgatan 11 7<br>25225 Helsingborg</p>
+           </div>
+       </div>
+       <div class="specifikation">
+           <br><h2>Specifikation: </h2>
+           <table class="varor">
+               <tr>    
+             <th><b>Varan</b></th>
+             <th><b>Antal</b></th>
+             <th><b>Enhet</b></th>
+             <th><b>Pris på styck</b></th>
+             <th><b>Summa</b></th>  
+            </tr>
+            <tr>
+           <td><b id="1">Stol</b></td>
+          <td>24</td>
+          <td>st</td>
+          <td>250 kr</td>
+          <td>6000 kr</td>
+             </tr>
+             <tr>
+             <td><b id="2">Skrivbord</b></td>
+             <td>2</td>
+             <td>st</td>
+             <td>750 kr</td>
+             <td>1500 kr</td>
+            </tr>
+            <tr> 
+             <td><b id="0">Gåva på köp</b></td>
+             <td>1</td>
+             <td>st</td>
+             <td>0 kr</td>
+             <td>0 kr</td>
+            </tr>
+            <tr> 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><b>7500 kr</b></td>
+                   </tr>
+                   <tr> 
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                       </tr>
+                       <tr> 
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                           </tr>
+                           <tr> 
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                               </tr>
+                   <td><b>Moms (25%)</b></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td><b>2500 kr</b></td>
+                  </tr>
+                </tr>
+                <td><b>Att betala</b></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><b>10000 kr</b></td>
+               </tr>
+           </table>
+           <br><br>
+        </div>
+        <div class="down">
+            <div class="down-left-b">
+                <p>Betalningsmottagare<br>Mio AB</p>
+            </div>
+            <div class="down-left-b">
+                <p>till bankgiro<br> 2564-2701 </p>
+            </div>
+        </div>
+    <p class="down-left">var god gör inga ändringar<span class="down-left" style="margin-left:20%; margin-right:20%;">meddelanden kan inte lämnas på ovan</span><span class="down-left">den avläses maskinellt</span></p>
+       <p>#<span style="margin-left:20%; margin-right:20%;">98562 #</span><span style="margin-right: 10%;">10 000.00   ><span class="float-right">25642701#41#</span></p>
+    <p class="float-right">Godkänd för F-skatt</p>
+
+</div>
+   </main>
+    <script src="app.js"></script>
+</body>
+</html>
